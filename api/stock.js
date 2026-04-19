@@ -13,12 +13,12 @@ export default function handler(req, res) {
 
   // --- MOCK DATA SOURCE ---
   const mockInventory = [
-    { sku: 'SKU1', currentStock: 10, warehouseLocation: 'WH-A' },
-    { sku: 'SKU1', currentStock: 5, warehouseLocation: 'WH-B' },
-    { sku: 'SKU1', currentStock: 3 }, // no location
-    { sku: 'SKU2', currentStock: 20, warehouseLocation: 'WH-A' },
-    { sku: 'SKU3', currentStock: 0 },
-    { sku: 'SKU3', currentStock: 7, warehouseLocation: 'WH-C' },
+    { sku: 'BLK_SHRT', currentStock: 10, warehouseLocation: 'WH-A' },
+    { sku: 'BLK_SHRT', currentStock: 5, warehouseLocation: 'WH-B' },
+    { sku: 'BLK_SHRT', currentStock: 3 }, // no location
+    { sku: 'WHT_SHRT', currentStock: 20, warehouseLocation: 'WH-A' },
+    { sku: 'RED_BAG', currentStock: 0 },
+    { sku: 'RED_BAG', currentStock: 7, warehouseLocation: 'WH-C' },
   ];
 
   const result = skuList.map(sku => {
