@@ -22,7 +22,7 @@ export default function handler(req, res) {
 
   // 🧠 Mock vendor registry
   const vendorRegistry = [
-    "amazon",
+    "Safwat Mekawy",
     "microsoft",
     "google",
     "oracle",
